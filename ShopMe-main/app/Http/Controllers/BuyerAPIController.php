@@ -268,6 +268,7 @@ class BuyerAPIController extends Controller
                 'form_params' => [
                         'image' => base64_encode(file_get_contents($image))
                     ],
+                'verify' => false
                 ]);
             return json_decode($response->getBody()->getContents())->data->link;
     }
