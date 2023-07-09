@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Carlito&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    @apply font-carlito;
+}
+
+body {
+    @apply bg-gray-200 select-none;
+}
+
+.heading-2 {
+    @apply text-3xl ml-5 font-semibold cursor-pointer capitalize;
+}
+
